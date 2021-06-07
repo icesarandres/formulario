@@ -1,0 +1,122 @@
+body{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-image:  url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-english-education-training-enrollment-poster-image_187595.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.4;
+
+
+}
+
+
+form{
+    background: #1f1c4b;
+    padding: 2.10px;
+    border-radius: 15px;
+    color: rgb(236, 231, 223);
+}
+
+label{
+    font-size: 30px;
+    text-align: center;
+}
+input{
+    width: 90%;
+    padding: 15px;
+    font-size: 25px;
+}
+select{
+    width: 95%;
+    padding: 10px; 
+    font-size: 25px;
+    
+}
+
+#si,#radio{
+display: inline-block;
+width: 30px;
+}
+
+.cursosn{
+display: inline;
+width: 10px;
+}
+
+#comentarios{
+    width: 90%;
+    max-width: 90%;
+    max-height: 200px;
+    padding: 10px; 
+    font-size: 25px;
+}
+
+@media (max-width: 750px) {
+    body{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #title{
+font-size: 22px;
+}
+
+    label{
+        font-size: 18px;
+        text-align: center;
+    }
+    input{
+        width: 85%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    select{
+        width: 95%;
+        padding: 10px; 
+        font-size: 16px;
+        
+    }
+
+    .cursosn{
+        display: inline;
+        width: 10px;
+        }
+  
+  }
+  
+  @media (max-width: 450px) {
+    body{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    #title{
+font-size: 22px;
+}
+
+    label{
+        font-size: 18px;
+        text-align: center;
+    }
+    input{
+        width: 85%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    select{
+        width: 95%;
+        padding: 10px; 
+        font-size: 16px;
+        
+    }
+
+    .cursosn{
+        display: inline;
+        width: 20px;
+        }
+  
+  }
